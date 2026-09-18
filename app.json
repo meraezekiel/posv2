@@ -26,6 +26,19 @@
     "plugins": [
       "expo-router",
       [
+        "expo-camera",
+        {
+          "cameraPermission": "The camera is the barcode scanner — it reads item barcodes straight into the cart."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Pick a product photo or your store logo from your gallery.",
+          "cameraPermission": "Take a photo of a product or your store logo."
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",
